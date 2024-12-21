@@ -1,0 +1,31 @@
+body{
+}
+.todo-list-container {
+    min-height: 500px;
+}
+.todo-list {
+    padding-inline-start: 0;
+
+}
+.todo-item {
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+}
+.todo-item .text {
+    flex-grow: 1;
+}
+.todo-input {
+
+}
+.todo-form {
+    display: flex;
+    flex-direction: row;
+    flex: auto 1;
+}
